@@ -1,0 +1,9 @@
+Name: billingMgr
+Chat: true
+Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, ./context.txt
+Tools: ./tools/utils.gpt, github.com/cloudnautique/digitalocean/billingHistory, github.com/cloudnautique/digitalocean/invoices, sys.chat.finish
+Description: call this tool for all thing billing related.
+Args: request: the task requested by the user
+
+Help the user complete their billing and invoicing operation requests with the tools available.
+Finish chat once done

@@ -1,9 +1,15 @@
-export: sshkey_digitalocean_reader, sshkey_create, sshkey_digitalocean_modifications, sshkey_digitalocean_delete
+export: sshkey_digitalocean_list, sshkey_digitalocean_get, sshkey_create, sshkey_digitalocean_modifications, sshkey_digitalocean_delete
 ---
-Name: sshkey_digitalocean_reader
+Name: sshkey_digitalocean_list
 Description: Call this tool to list, get or get_by id ssh keys in digitalocean
-Tools: sshkeys_list from github.com/cloudnautique/digitalocean/sshkeys, sshkeys_get_by_id from github.com/cloudnautique/digitalocean/sshkeys
-Args: key_id: the numerical digital ocean id fo the ssh key to retrieve
+Tools: sshkeys_list from github.com/cloudnautique/digitalocean/sshkeys
+
+Use the appropriate tools to service the request and return the results
+---
+Name: sshkey_digitalocean_get
+Description: Call this tool to list, get or get_by id ssh keys in digitalocean
+Tools: sshkeys_get_by_id from github.com/cloudnautique/digitalocean/sshkeys
+args: key_id: the ID of the key
 
 Use the appropriate tools to service the request and return the results
 ---
@@ -21,7 +27,7 @@ Name: sshkey_digitalocean_modifications
 Chat: true
 Description: Use this to modify or create SSH key resources in Digital ocean
 Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, ../context.txt
-Tools: sshkeys_create_update from github.com/cloudnautique/digitalocean/sshkeys,sys.workspace.read, github.com/cloudnautique/chatbot-copilot
+Tools: sshkeys_create_update from github.com/cloudnautique/digitalocean/sshkeys,sys.workspace.read, sys.chat.finish
 Args: local_public_keyfile: Local public key file
 Args: sshkey_id: ID of the sshkey in digital ocean
 
@@ -33,7 +39,7 @@ Name: sshkey_digitalocean_delete
 Chat: true
 Description: Use this to delete SSH key resources in Digital ocean
 Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, ../context.txt
-Tools: sshkeys_create_update from github.com/cloudnautique/digitalocean/sshkeys,sys.workspace.read, github.com/cloudnautique/chatbot-copilot
+Tools: sshkeys_create_update from github.com/cloudnautique/digitalocean/sshkeys,sys.workspace.read, sys.chat.finish
 Args: local_public_keyfile: Local public key file
 Args: sshkey_id: ID of the sshkey in digital ocean
 

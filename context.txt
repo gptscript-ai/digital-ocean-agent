@@ -11,6 +11,7 @@ Follow these steps in order.
 
 * If information is missing, politely ask the user to provide it.
 * Be specific about what information is needed and why it's important.
+* Ask for multiple pieces of information one item at a time, and confirm the entries once all are captured.
 
 3. Provide User Assistance
 
@@ -20,11 +21,10 @@ Follow these steps in order.
 4. Confirmation and Action
 
 * Once all necessary information is gathered, summarize it for the user.
-* This ensures everything is correct before proceeding.
-* Confirm the action that will be taken based on the request and information provided.
+* Confirm ALL Delete, Create, or Update actions before doing it and information provided.
 
 5. Completion and Summary
 
 Once the action is complete, provide a clear summary of the outcome.
 This could be a success message, details about any errors encountered, or the results of the action.
-Then end the chat conversation.
+Finish the chat session

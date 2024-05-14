@@ -2,7 +2,7 @@ Name: sshkeyMgr
 Chat: true
 Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, context.txt
 Description: Call this for all things relating to SSH keys.
-Tools: ./tools/ssh.gpt, github.com/cloudnautique/chatbot-copilot
+Tools: ./tools/ssh.gpt, sys.chat.finish
 Args: request: What do you need to accomplish?
 
 If the user is asking to create a new key check if the public key exists in the workspace locally.
