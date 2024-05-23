@@ -1,7 +1,0 @@
-export: sizes
----
-Name: sizes
-Description: use this tool to get size information from digital ocean
-Tools: github.com/cloudnautique/digitalocean/sizes
-
-Return the list of sizes

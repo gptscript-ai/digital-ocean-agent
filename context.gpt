@@ -1,4 +1,10 @@
-Export: ./sshkeys.gpt, ./droplets.gpt, ./kubernetes.gpt, ./databases.gpt, ./billing.gpt
+Export: ./droplets.gpt, ./kubernetes.gpt, ./databases.gpt, ./billing.gpt
+
+Export: github.com/cloudnautique/digitalocean/images
+Export: github.com/cloudnautique/digitalocean/regions
+Export: github.com/cloudnautique/digitalocean/tags
+Export: github.com/cloudnautique/digitalocean/sizes
+Export: sshkeys_list from github.com/cloudnautique/digitalocean/sshkeys
 
 #!sys.echo
 Ask the user for information needed to complete a task.

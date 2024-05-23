@@ -1,12 +1,10 @@
 Name: Droplet Mgr
 Chat: true
 Context: ./context.gpt
-Tools: github.com/cloudnautique/digitalocean/droplets, sshkey_digitalocean_list from ./tools/ssh.gpt, ./tools/droplets.gpt, ./tools/utils.gpt, sys.chat.finish
+Tools: github.com/cloudnautique/digitalocean/droplets
 Description: Use this tool to work with droplets
 Args: request: the task requested by the user
 
 
 Help the user complete their Droplet operation requests using the tools available.
 When creating droplets, ask if the user would like to access via password or via SSHkey.
-When deleting or updating droplets, show changes and ask the user to confirm before proceeding.
-Summarize and finish the chat session.
