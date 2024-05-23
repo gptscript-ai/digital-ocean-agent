@@ -7,5 +7,5 @@ you also need to set an env var for the Digital Ocean API Key, GPTSCRIPT_API_DIG
 Because you might want to create SSH keys or something pass in a workspace so you can get the keys after you are done chatting.
 
 ```bash
-gptscript --workspace=./workspace ./chatbot.gpt
+gptscript ./tool.gpt
 ```
