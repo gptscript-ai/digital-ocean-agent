@@ -1,6 +1,6 @@
-Name: dropletMgr
+Name: Droplet Mgr
 Chat: true
-Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, ./context.txt
+Context: ./context.gpt
 Tools: github.com/cloudnautique/digitalocean/droplets, sshkey_digitalocean_list from ./tools/ssh.gpt, ./tools/droplets.gpt, ./tools/utils.gpt, sys.chat.finish
 Description: Use this tool to work with droplets
 Args: request: the task requested by the user

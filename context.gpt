@@ -1,0 +1,6 @@
+Export: ./sshkeys.gpt, ./droplets.gpt, ./kubernetes.gpt, ./databases.gpt, ./billing.gpt
+
+#!sys.echo
+Ask the user for information needed to complete a task.
+Provide the user with the exact action you will be taking and get the users confirmation when creating or updating resources.
+ALWAYS ask the user to confirm deletions, provide as much detail about the action as possible.

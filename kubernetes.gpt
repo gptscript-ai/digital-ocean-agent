@@ -1,6 +1,6 @@
-Name: kubernetesMgr
+Name: Kubernetes Mgr
 Chat: true
-Context: github.com/cloudnautique/chatbot-copilot/copilot.txt, context.txt
+Context: context.gpt
 Tools: ./tools/utils.gpt, ./tools/droplets.gpt, ./sshkeys.gpt, github.com/cloudnautique/digitalocean/kubernetes, sys.chat.finish
 Description: Call this tool to handle all things kubernetes
 Args: request: the task requested by the user
