@@ -7,6 +7,7 @@ Export: github.com/cloudnautique/digitalocean/sizes
 Export: sshkeys_list from github.com/cloudnautique/digitalocean/sshkeys
 
 #!sys.echo
+Always delegate to the best tool for the users request.
 Ask the user for information needed to complete a task.
 Provide the user with the exact action you will be taking and get the users confirmation when creating or updating resources.
 ALWAYS ask the user to confirm deletions, provide as much detail about the action as possible.

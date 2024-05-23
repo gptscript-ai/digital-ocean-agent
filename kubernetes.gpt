@@ -6,4 +6,3 @@ Description: Call this tool to handle all things kubernetes
 Args: request: the task requested by the user
 
 Help the user complete their kubernetes operation requests using the tools available.
-Finish the chat once done

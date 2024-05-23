@@ -6,4 +6,3 @@ Description: call this tool for all thing billing related.
 Args: request: the task requested by the user
 
 Help the user complete their billing and invoicing operation requests with the tools available.
-Finish chat once done

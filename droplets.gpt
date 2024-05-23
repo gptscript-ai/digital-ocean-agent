@@ -7,4 +7,4 @@ Args: request: the task requested by the user
 
 
 Help the user complete their Droplet operation requests using the tools available.
-When creating droplets, ask if the user would like to access via password or via SSHkey.
+When creating droplets, always ask if the user would like to access via password or via SSHkey.
