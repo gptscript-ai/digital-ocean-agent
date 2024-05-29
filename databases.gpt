@@ -1,7 +1,7 @@
 Name: Database Mgr
 Chat: true
 Context: context.gpt
-Tools: github.com/cloudnautique/digitalocean/databases 
+Tools: databases* from ./openapi.yaml
 Description: Call this tool to manage databases on digital ocean
 Args: request: the task requested by the user
 

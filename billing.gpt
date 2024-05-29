@@ -1,7 +1,7 @@
 Name: Billing Mgr
 Chat: true
 Context: context.gpt
-Tools: github.com/cloudnautique/digitalocean/billingHistory, github.com/cloudnautique/digitalocean/invoices
+Tools: billingHistory_list from ./openapi.yaml, invoices* from ./openapi.yaml
 Description: call this tool for all thing billing related.
 Args: request: the task requested by the user
 

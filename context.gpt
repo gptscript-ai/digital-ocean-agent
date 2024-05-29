@@ -1,11 +1,11 @@
 Export: sys.time.now
 Export: ./droplets.gpt, ./kubernetes.gpt, ./databases.gpt, ./billing.gpt
 
-Export: github.com/cloudnautique/digitalocean/images
-Export: github.com/cloudnautique/digitalocean/regions
-Export: github.com/cloudnautique/digitalocean/tags
-Export: github.com/cloudnautique/digitalocean/sizes
-Export: sshkeys_list from github.com/cloudnautique/digitalocean/sshkeys
+Export: images* from ./openapi.yaml
+Export: regions_list from ./openapi.yaml
+Export: tags* from openapi.yaml
+Export: sizes_list from ./openapi.yaml
+Export: sshKeys_list from ./openapi.yaml
 
 
 #!sys.echo

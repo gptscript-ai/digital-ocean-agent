@@ -1,7 +1,7 @@
 Name: Kubernetes Mgr
 Chat: true
 Context: context.gpt
-Tools: github.com/cloudnautique/digitalocean/kubernetes
+Tools: kubernetes* from ./openapi.yaml
 Description: Call this tool to handle all things kubernetes
 Args: request: the task requested by the user
 

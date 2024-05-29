@@ -1,7 +1,7 @@
 Name: Droplet Mgr
 Chat: true
 Context: ./context.gpt
-Tools: github.com/cloudnautique/digitalocean/droplets
+Tools: droplets* from ./openapi.yaml
 Description: Use this tool to work with droplets
 Args: request: the task requested by the user
 
