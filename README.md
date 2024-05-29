@@ -11,5 +11,5 @@ The ChatBot will only have access to perform actions the Digital Ocean API Key h
 ## Running the ChatBot
 
 ```bash
-gptscript ./tool.gpt
+gptscript github.com/cloudnautique/do-chat
 ```
