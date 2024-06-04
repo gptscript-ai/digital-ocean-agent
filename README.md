@@ -13,5 +13,5 @@ The ChatBot will only have access to perform actions the Digital Ocean API Key h
 ## Running the ChatBot
 
 ```bash
-gptscript github.com/gptscript-ai/do-chat
+gptscript github.com/gptscript-ai/digital-ocean-agent
 ```

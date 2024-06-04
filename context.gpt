@@ -1,11 +1,10 @@
-Export: sys.time.now
-Export: ./droplets.gpt, ./kubernetes.gpt, ./databases.gpt, ./billing.gpt
+Share Tools: sys.time.now
 
-Export: images* from ./openapi.yaml
-Export: regions_list from ./openapi.yaml
-Export: tags* from openapi.yaml
-Export: sizes_list from ./openapi.yaml
-Export: sshKeys_list from ./openapi.yaml
+Share Tools: images* from ./openapi.yaml
+Share Tools: regions_list from ./openapi.yaml
+Share Tools: tags* from openapi.yaml
+Share Tools: sizes_list from ./openapi.yaml
+Share Tools: sshKeys_list from ./openapi.yaml
 
 
 #!sys.echo
